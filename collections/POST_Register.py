@@ -43,4 +43,4 @@ response = requests.post(url, headers=headers, data=payload)
 status_code = response.status_code
 print(response.text)
 
-assert status_code == 204, " Satus code did not matched "
+assert status_code == 204, " Status code did not match "
