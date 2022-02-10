@@ -12,7 +12,6 @@ headers = {}
 response = requests.get(url=url, headers=headers, data=payload)
 status_code = response.status_code
 pretty_print(response.text)
-
 print("Status Code  :", status_code)
 print("Headers      :", headers)
 print("BaseURL      :", url)
