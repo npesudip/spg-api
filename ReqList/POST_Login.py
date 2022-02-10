@@ -1,15 +1,14 @@
-import requests
 import json
-from utils.print_helpers import pretty_print
-from TestData.people import name
+import requests
+
+from TestData.people import People
 from utils.config import uri
+from utils.print_helpers import pretty_print
 
 login_url = "/v1/api/user/login"
 
-name = name
-# print(name)
+name = People.fullName
 url = uri + login_url
-print(url)
 
 payload = json.dumps({
     "email": "admin@spg.com",
