@@ -17,6 +17,6 @@ print("Headers      :", headers)
 print("BaseURL      :", url)
 
 
-def test_verify_status_code_is_200():
-    assert status_code == 200, "Status Code Do Not Matched"
+# def test_verify_status_code_is_200():
+#     assert status_code == 200, "Status Code Do Not Matched"
 

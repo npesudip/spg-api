@@ -3,7 +3,7 @@ import random
 import sys
 
 import pytest
-# from pytest_reportportal import RPLogger, RPLogHandler
+from pytest_reportportal import RPLogger, RPLogHandler
 
 from utils.file_reader import read_file
 
